@@ -5,7 +5,7 @@ ultimosdig:: [Int] -> Int
 ultimosdig [] = 0
 ultimosdig (x:xs) = ((mod x 10) * (10 ^ (length xs))) + ultimosdig xs
 
--- Halla una lista con los enteros formados por los multiplos de 3 de los digitos de los enter de una lista
+-- Halla una lista con los enteros formados por los multiplos de 3 de los digitos de los enteros de una lista
 
 intalist:: Int -> [Int]
 intalist 0 = []
